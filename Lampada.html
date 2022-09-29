@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Lampada</title>
+
+		<script type="text/javascript">
+
+			var quebrada = false;
+			function mudaLampada(tipo, id) {
+				
+				if(!quebrada){
+					document.getElementById(id).src="_imagens/" + tipo;
+
+					if(tipo == 'lampada-quebrada.jpg'){
+						quebrada = true;
+					}
+				}
+				
+			}
+		</script>
+
+	</head>
+
+	<body>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz1" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz1')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz1')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz1')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz2" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz2')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz2')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz2')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz3" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz3')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz3')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz3')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz4" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz4')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz4')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz4')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz5" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz5')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz5')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz5')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz6" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz6')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz6')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz6')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz7" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz7')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz7')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz7')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz8" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz8')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz8')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz8')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz9" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz9')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz9')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz9')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz10" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz10')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz10')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz10')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz11" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz11')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz11')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz11')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz12" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz12')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz12')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz12')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz13" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz13')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz13')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz13')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz14" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz14')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz14')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz14')"/>
+
+		<img src="_imagens/lampada-apagada.jpg" id="luz15" onmousemove="mudaLampada('lampada-acesa.jpg', 'luz15')" onmouseout="mudaLampada('lampada-apagada.jpg', 'luz15')" onclick="mudaLampada('lampada-quebrada.jpg', 'luz15')"/>
+
+
+
+	</body>
+
+</html>
