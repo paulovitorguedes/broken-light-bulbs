@@ -2,7 +2,7 @@ var lamp = Array();
 lamp["container"] = Array();
 lamp["tipo"] = Array();
 
-lamp["container"][0] = '<img src="_imagens/lampada-apagada.jpg" id="0" onmousemove="mudaLampada(0,1) "onmouseout="mudaLampada(0,0)" onclick="mudaLampada(0,2)" />';
+lamp["container"][0] = '<img src="_imagens/lampada-apagada.jpg" id="0" onmousemove="mudaLampada(0,1) "onmouseout="mudaLampada(0,0)" onclick="mudaLampada(0,2)" />  ';
 lamp["tipo"][0] = "apagada"
 
 document.getElementById("lam").innerHTML = lamp["container"][0];
