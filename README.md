@@ -1,5 +1,5 @@
 # broken-light-bulbs.
- Lampadas Quebradas
+ Lampadas Quebradas.
  [Acesse aqui broken-light-bulbs](https://paulovitorguedes-broken-light-bulbs.netlify.app/)
 #### Projeto em *HTML* e *JAVASCRIPT*
 ![Interface-projeto-broken-light-bulbs](_imagens/interface.png)
