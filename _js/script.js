@@ -10,6 +10,7 @@ document.getElementById("lam").innerHTML = lamp["container"][0];
 
 
 
+
 function adicionarLampada() {
     let q = lamp["container"].length;
     lamp["container"].push('<img src="_imagens/lampada-apagada.jpg" id="' + q + '" onmousemove="mudaLampada(' + q + ',1) "onmouseout="mudaLampada(' + q + ',0)" onclick="mudaLampada(' + q + ',2)" />');
@@ -18,8 +19,10 @@ function adicionarLampada() {
     console.log("adicionar lampada " + (q + 1));
 
     remonta();
-    
+
 }
+
+
 
 
 
@@ -39,6 +42,8 @@ function mudaLampada(id, troca) {
     }
 
 
+
+
     if (tipo_atual != "quebrada") {
         lamp["container"][id] = '<img src="_imagens/lampada-' + troca + '.jpg" id="' + id + '" onmousemove="mudaLampada(' + id + ',1) "onmouseout="mudaLampada(' + id + ',0)" onclick="mudaLampada(' + id + ',2)" />';
 
@@ -47,6 +52,10 @@ function mudaLampada(id, troca) {
 
     remonta();
 }
+
+
+
+
 
 
 function remonta() {
